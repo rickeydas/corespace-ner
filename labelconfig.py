@@ -10,7 +10,8 @@ label_config = {
     {
       "name": [
         "ORG",
-        "ORGANIZATION"
+        "ORGANIZATION",
+        "NORP"
       ],
       "key": "ORGANIZATION"
     },

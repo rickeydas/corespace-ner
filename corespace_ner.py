@@ -65,7 +65,7 @@ def spacy_pos_tags(val):
         if token.dep_ in ['amod', 'nmod', 'compound']:
             modifiers.append(token.text)
     for ent in doc.ents:
-        if ent.label_ in ['FAC', 'ORG', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'PERCENT']:
+        if ent.label_ in ['FAC', 'ORG', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'PERCENT', 'NORP']:
             if ent.text not in modifiers:
                 ner_texts.append(ent.text)
                 ner_labels.append((ent.text, ent.label_))

@@ -1,5 +1,5 @@
 /stanford_corenlp
-/README.md
-/logs.json
+/log.json
 /__pycache__
+/nohup.out
 
