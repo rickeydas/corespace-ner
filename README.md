@@ -1,4 +1,4 @@
-![CoreSpace NER](https://raw.githubusercontent.com/rickeydas/corespace-ner/master/assets/logo.png)
+![CoreSpace NER](https://raw.githubusercontent.com/rickeydas/corespace-ner/master/assets/logo.jpg)
 
 
 # CoreSpace NER
