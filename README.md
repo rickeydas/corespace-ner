@@ -52,145 +52,124 @@
 
 ```
 === INPUT ===
-{"text":"LetsEndorse is a social enterprise/digital collaborative ecosystem/NGO network headquartered in Bengaluru, India, which is in a mission to radicate the social issues like polio vactionation, healthcare, malnutrition, clean energy. Letsendorse was founded in 2014. Varun Kashyap is the Co-Founder of Letsendorse and the organisation has an estimated annual revenue of $7.9M."}
+{"text":"Ramesh Jha, born in a Indian middle class family on 12-06-1991 (Monday), has finally got his scholarship of $10000 from London School of Economics. He is going to reach London after 1 month. In future, he wants to be a CEO of his own venture. You can reach him at rameshjha@lse.edu or rameshjha.com."}
 
 
 === OUTPUT ===
 {
-  "text": "LetsEndorse is a social enterprise/digital collaborative ecosystem/NGO network headquartered in Bengaluru, India, which is in a mission to radicate the social issues like polio vactionation, healthcare, malnutrition, clean energy. Letsendorse was founded in 2014. Varun Kashyap is the Co-Founder of Letsendorse and the organisation has an estimated annual revenue of $7.9M.",
+  "text": "Ramesh Jha, born in a Indian middle class family on 12-06-1991 (Monday), has finally got his scholarship of $10000 from London School of Economics. He is going to reach London after 1 month. In future, he wants to be a CEO of his own venture. You can reach him at rameshjha@lse.edu or rameshjha.com.",
   "keywords": [
     {
-      "name": "Letsendorse",
+      "name": "Ramesh Jha",
       "category": "PERSON",
       "start": 0,
-      "end": 11
+      "end": 10
     },
     {
-      "name": "social enterprise",
+      "name": "middle class",
+      "category": "IDEOLOGY",
+      "start": 29,
+      "end": 41
+    },
+    {
+      "name": "family",
       "category": "OTHER",
-      "start": 17,
-      "end": 34
+      "start": 42,
+      "end": 48
     },
     {
-      "name": "digital collaborative ecosystem",
+      "name": "12-06-1991",
+      "category": "DATE",
+      "start": 52,
+      "end": 62
+    },
+    {
+      "name": "Monday",
+      "category": "DATE",
+      "start": 64,
+      "end": 70
+    },
+    {
+      "name": "scholarship",
       "category": "OTHER",
-      "start": 35,
-      "end": 66
+      "start": 93,
+      "end": 104
     },
     {
-      "name": "NGO network",
-      "category": "OTHER",
-      "start": 67,
-      "end": 78
+      "name": "$10000",
+      "category": "MONEY",
+      "start": 108,
+      "end": 114
     },
     {
-      "name": "Bengaluru",
-      "category": "LOCATION",
-      "start": 96,
-      "end": 105
+      "name": "London School of Economics",
+      "category": "ORGANIZATION",
+      "start": 120,
+      "end": 146
     },
     {
-      "name": "India",
-      "category": "COUNTRY",
-      "start": 107,
-      "end": 112
+      "name": "London",
+      "category": "CITY",
+      "start": 169,
+      "end": 175
     },
     {
-      "name": "mission",
-      "category": "OTHER",
-      "start": 128,
-      "end": 135
-    },
-    {
-      "name": "social issues",
-      "category": "OTHER",
-      "start": 152,
-      "end": 165
-    },
-    {
-      "name": "polio vactionation",
-      "category": "OTHER",
-      "start": 171,
+      "name": "1 month",
+      "category": "DURATION",
+      "start": 182,
       "end": 189
     },
     {
-      "name": "healthcare",
-      "category": "OTHER",
-      "start": 191,
-      "end": 201
-    },
-    {
-      "name": "malnutrition",
-      "category": "EVENT",
-      "start": 203,
-      "end": 215
-    },
-    {
-      "name": "clean energy",
-      "category": "OTHER",
-      "start": 217,
-      "end": 229
-    },
-    {
-      "name": "Letsendorse",
-      "category": "PERSON",
-      "start": 231,
-      "end": 242
-    },
-    {
-      "name": "2014",
+      "name": "future",
       "category": "DATE",
-      "start": 258,
-      "end": 262
+      "start": 194,
+      "end": 200
     },
     {
-      "name": "Varun Kashyap",
-      "category": "PERSON",
+      "name": "CEO",
+      "category": "TITLE",
+      "start": 219,
+      "end": 222
+    },
+    {
+      "name": "own venture",
+      "category": "OTHER",
+      "start": 230,
+      "end": 241
+    },
+    {
+      "name": "rameshjha@lse.edu",
+      "category": "EMAIL",
       "start": 264,
-      "end": 277
+      "end": 281
     },
     {
-      "name": "the Co-Founder of Letsendorse",
-      "category": "PRODUCT",
-      "start": 281,
-      "end": 310
-    },
-    {
-      "name": "organisation",
-      "category": "OTHER",
-      "start": 319,
-      "end": 331
-    },
-    {
-      "name": "estimated annual revenue",
-      "category": "OTHER",
-      "start": 339,
-      "end": 363
-    },
-    {
-      "name": "$7.9M.",
-      "category": "MONEY",
-      "start": 367,
-      "end": 373
+      "name": "rameshjha.com",
+      "category": "URL",
+      "start": 285,
+      "end": 298
     }
   ],
   "sentiment": [
     {
-      "sentence": "LetsEndorse is a social enterprise/digital collaborative ecosystem/NGO network headquartered in Bengaluru, India, which is in a mission to radicate the social issues like polio vactionation, healthcare, malnutrition, clean energy.",
-      "sentiment": "POSITIVE"
-    },
-    {
-      "sentence": "Letsendorse was founded in 2014.",
+      "sentence": "Ramesh Jha, born in a Indian middle class family on 12-06-1991 (Monday), has finally got his scholarship of $10000 from London School of Economics.",
       "sentiment": "NEUTRAL"
     },
     {
-      "sentence": "Varun Kashyap is the Co-Founder of Letsendorse and the organisation has an estimated annual revenue of $7.9M.",
+      "sentence": "He is going to reach London after 1 month.",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "sentence": "In future, he wants to be a CEO of his own venture.",
+      "sentiment": "POSITIVE"
+    },
+    {
+      "sentence": "You can reach him at rameshjha@lse.edu or rameshjha.com.",
       "sentiment": "NEUTRAL"
     }
   ],
   "doc_sentiment": "POSITIVE"
 }
-
 ```
 
 ---
@@ -250,9 +229,9 @@ Data : {"text": "<your_text>"}
 
 Reach out to me at one of the following places!
 
-- Linkedin at <a href="http://www.linkedin.com/rickeydas" target="_blank">`rickeydas`</a>
-- Email at <a href="karam.shine@gmail.com" target="_blank">`Karamjit Das`</a>
-- Github at <a href="http://www.github.com/rickeydas" target="_blank">`Karamjit Das`</a>
+- <a href="https://www.linkedin.com/in/rickeydas/" target="_blank">`LinkedIn`</a>
+- <a href="karam.shine@gmail.com" target="_blank">`Email`</a>
+- <a href="http://www.github.com/rickeydas" target="_blank">`Github`</a>
 
 ---
 
